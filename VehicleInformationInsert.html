@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vehicle Information Insert</title>
+    <meta name="description" content="Vehicle Information Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="VehicleStyleInformationInsert.css">
+  </head>
+  <body>
+    <h1>Vehicle Information Form<a href="Vehicle.html">Return To Home</a></h1>
+    <form id="vehicleForm"  method="post">
+      <input type="hidden" name="Id" value="auto-generated">
+      
+      <div>
+        <label for="VehicleType">Vehicle Type:</label>
+        <input type="text" name="VehicleType" id="VehicleType" required>
+      </div>
+      
+      <div>
+        <label for="VehicleBrand">Vehicle Brand:</label>
+        <input type="text" name="VehicleBrand" id="VehicleBrand" required>
+      </div>
+      
+      <div>
+        <label for="YearOfProduction">Year of Production:</label>
+        <input type="number" name="YearOfProduction" id="YearOfProduction" required>
+      </div>
+      
+      <div>
+        <label for="TopSpeed">Top Speed (in km/h):</label>
+        <input type="number" name="TopSpeed" id="TopSpeed" required>
+      </div>
+      
+      <div>
+        <label for="VehicleMileage">Vehicle Mileage (in miles):</label>
+        <input type="number" name="VehicleMileage" id="VehicleMileage" required>
+      </div>
+      
+      <div>
+        <label for="VehicleOwner">Vehicle Owner:</label>
+        <input type="text" name="VehicleOwner" id="VehicleOwner" required>
+      </div>
+      
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <script src="VehicleInformationInsertJS.js"></script>
+  </body>
+</html>
